@@ -18,7 +18,7 @@ var config = {
   scope:  '<additional required permissions>',
 };
 
-var fbsdk = require('../../lib/facebook').init(config);
+var fbsdk = require('facebook_sdk').init(config);
 ```
 
 ### Use in Express
