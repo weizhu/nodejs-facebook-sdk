@@ -12,10 +12,10 @@ TODO
 
 ```javascript
 var config = {
-  ns: '<Facebook App Namespace',
-  id:  '<app id>',
-  secret:  '<app secret>',
-  scope:      '<additional required permissions>',
+  ns:     '<Facebook App Namespace',
+  id:     '<app id>',
+  secret: '<app secret>',
+  scope:  '<additional required permissions>',
 };
 
 var fbsdk = require('../../lib/facebook').init(config);
