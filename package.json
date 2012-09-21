@@ -1,0 +1,24 @@
+{
+  "name": "facebook_sdk",
+  "version": "0.0.1",
+  "description": "SDK for Facebook integration"
+  "keywords": [
+    "facebook",
+    "api",
+  ],
+  "author": "Wei Zhu <wei@weiandfenny.com>",
+  "main": "index",
+  "dependencies": {
+    "request": "2.1.x",
+    "signed-request": "1.0.x"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weizhu/nodejs-facebook-sdk.git"
+  },
+  "engines": {
+    "node": ">= 0.4.1"
+  }
+}
