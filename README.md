@@ -33,7 +33,6 @@ use to make API calls, get login status and current user id, etc.
 ```javascript
 app.all('/', function(req, res) {
   var facebook = req.facebook;
-  console.log("faceobook", facebook);
   if (facebook && facebook.signedRequest.user_id) {
     facebook.api('me', function(er, me) {
       // Now 'me' contains info (name, id, work, gender, etc.) for current user
